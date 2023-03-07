@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 14</title>
+
+    <style>
+        .wrapper {
+            height: 50%;
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #000; 
+            box-shadow: 0 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Contact us</h1>
+
+            <p>Use the following form to send a message to Example Cafe</p>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">Your email</label>
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>                
+
+                <tr>
+                    <td>
+                        <label for="email">Message</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>                
+
+                <tr>
+                    <td>
+                        <label for="info">How did you hear of us?</label>
+                    </td>
+                    <td>
+                        <select name="info" id="info" id="email">
+                            <option value="google">Google</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="friends">Friends</option>
+                            <option value="instagram">Instagram</option>
+                        </select>
+                    </td>
+                </tr>                
+
+                <tr>
+                    <td>
+                        <label for="newsletter">Newsletter</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="newsletter">Ensure this box is checked if you would like to received email updates
+                    </td>
+                </tr>                
+            </table>
+
+            <input type="submit" value="Send message">
+        </form>
+    </div>
+</body>
+</html>
